@@ -5,12 +5,12 @@ import java.util.HashSet;
 public class Activity10 {
     public static void main(String[] args) {
         HashSet<String> hs = new HashSet<String>();
-        hs.add("Radha");
-        hs.add("Priya");
-        hs.add("Neha");
+        hs.add("dagar");
+        hs.add("Preeti");
+        hs.add("Nupur");
         hs.add("Suman");
-        hs.add("Aashit");
-        hs.add("Kartik");
+        hs.add("Ankit");
+        hs.add("Koko");
 
         System.out.println("Size : " + hs.size());
 
