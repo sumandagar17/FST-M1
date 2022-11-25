@@ -1,8 +1,5 @@
-	
-numbers = list(input("Enter a sequence of comma separated values: ").split(", "))
-sum = 0
- 
-for number in numbers:
-  sum += int(number)
- 
+num= list(input("enter list:").split(","))
+sum=0
+for i in num:
+    sum+=int(i)
 print(sum)

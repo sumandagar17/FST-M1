@@ -1,9 +1,15 @@
-# Given tuple
-num_tuple = (10, 20, 33, 46, 55)
-print("Given list is ", num_tuple)
 
-# Print elements that are divisible by 5
-print("Elements that are divisible by 5:")
-for num in num_tuple:
-    if (num % 5 == 0):
-        print(num)
+import pandas as pd
+ 
+# Create a dictionary to hold our data
+data = {
+  "X": [1, 2, 3, 4, 5],
+  "Y": [9, 8, 7, 6, 5],
+  "Z": [10, 12, 8, 4, 3]
+}
+ 
+# Create a new DataFrame using our dictionary
+table = pd.DataFrame(data)
+ 
+# Print the DataFrame
+print(table)
