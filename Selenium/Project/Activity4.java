@@ -30,8 +30,8 @@ public class Activity4 {
                 ExpectedConditions.visibilityOfElementLocated(By.id("menu_pim_addEmployee"))));
         driver.findElement(By.id("menu_pim_addEmployee")).click();
 //     fill required details
-        driver.findElement(By.xpath("//input[@id='firstName']")).sendKeys("Anusha");
-        driver.findElement(By.xpath("//input[@id='lastName']")).sendKeys("Reddy");
+        driver.findElement(By.xpath("//input[@id='firstName']")).sendKeys("Suman");
+        driver.findElement(By.xpath("//input[@id='lastName']")).sendKeys("Dagar");
         //click on save
         driver.findElement(By.xpath("//input[@id='btnSave']")).click();
         driver.findElement(By.id("menu_pim_viewEmployeeList")).click();
