@@ -21,8 +21,8 @@ public class Activity4_2 {
         WebElement firstName = driver.findElement(By.xpath("//input[@id = 'firstName']"));
         WebElement lastName = driver.findElement(By.xpath("//input[@id = 'lastName']"));
 
-        firstName.sendKeys("Saahil");
-        lastName.sendKeys("Sharma");
+        firstName.sendKeys("suman");
+        lastName.sendKeys("Dagar");
 
         //Enter the email
         driver.findElement(By.xpath("//input[@id = 'email']")).sendKeys("test@example.com");
